@@ -11,13 +11,15 @@ import {FormsModule} from '@angular/forms';
 import { from } from 'rxjs';
 import { HttpClientModule } from '@angular/common/http';
 import { MenuComponent } from './menu/menu.component';
+import { FeedbackComponent } from './feedback/feedback.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ContentComponent,
     AboutComponent,
-    MenuComponent
+    MenuComponent,
+    FeedbackComponent
   ],
   imports: [
     BrowserModule,

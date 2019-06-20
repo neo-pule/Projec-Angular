@@ -1,20 +1,38 @@
 li{
-    display: inline;
+    //display: inline;
     cursor: pointer;
     padding: 0.5rem;
 }
 ul{
    list-style-type: none; 
-    text-align: center;
+  //  text-align: center;
      margin: 0;    
     padding: 0;
 }
-nav{
-    font-size: 2rem;
-    background-color: #F1F1F1;
-}
+// nav{
+//     font-size: 2rem;
+//     background-color: #F1F1F1;
+//     height: 60rem;
+//     width: 15rem;
+// }
  ul li :hover{
      background-color: rgb(49, 168, 247);
      color : #F1F1F1;
      
  }
+ .sidenav{
+ width: 130px;
+ position: fixed;
+ z-index: 1;
+ top: 20px;
+ left: 10px;
+ //background: #eee;
+ overflow-x: hidden;
+ padding: 8px 0;
+}
+.main {
+    
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }

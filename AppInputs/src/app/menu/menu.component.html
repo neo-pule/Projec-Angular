@@ -1,27 +1,37 @@
-<p>
-  menu works!
-</p>
+
 <!-- <button routerLink="/home">home</button>
 <button routerLink="/content">content</button>
 <button routerLink="/about">about</button> -->
-
+<body>
+<div class="sidenav">
 <nav>
   <ul>
    
-   <li [routerLink]="[menu/home]"> <a>Home</a></li>
-   <li (click)="click2()"> <a>Content</a></li>
-   <li (click)="click3()"> <a>About</a></li>
+    <li (click)="click1()"> <a>Home</a></li> 
+    <li (click)="click2()"> <a>Content</a></li> 
+    <li (click)="click3()"> <a>About</a></li> 
+    <li (click)="click4()"> <a>Feedback</a></li> 
    </ul>
  </nav>
- 
+</div> 
+ <div class="main" align="center">
+
+  
+
+  <router-outlet></router-outlet>
+ </div>
 
   <!-- <nav>
     <ul>
-     
+      <li [routerLink]="[menu/home]"> <a>Home</a></li>      routerlink func() has the same function for navigating pages
+   <li (click)="click2()"> <a>Content</a></li>              user defined func() has the same function for navigating pages
+   <li (click)="click3()"> <a>About</a></li>
      <li> <a href="home">Home</a></li>
      <li> <a href="content">content</a></li>
      <li> <a href="about">about</a></li>
      </ul>
    </nav>
     -->
-    <router-outlet></router-outlet>
+  </body>
+    
+  

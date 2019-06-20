@@ -22,13 +22,17 @@ export class MenuComponent implements OnInit {
     {
       this.obj.navigateByUrl("about");
     }
-    getProfile()
+    click4()
     {
-    
-      this.obj.navigateByUrl("home");
-         this.obj.navigateByUrl("content");
-         this.obj.navigateByUrl("about");
+      this.obj.navigateByUrl("feedback");
     }
+    // getProfile()
+    // {
+    
+    //   this.obj.navigateByUrl("home");
+    //      this.obj.navigateByUrl("content");
+    //      this.obj.navigateByUrl("about");
+    // }
   ngOnInit() {
   }
 

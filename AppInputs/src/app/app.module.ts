@@ -10,12 +10,14 @@ import { AboutComponent } from './about/about.component';
 import {FormsModule} from '@angular/forms';
 import { from } from 'rxjs';
 import { HttpClientModule } from '@angular/common/http';
+import { MenuComponent } from './menu/menu.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ContentComponent,
-    AboutComponent
+    AboutComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,27 @@
+<p>
+  menu works!
+</p>
+<!-- <button routerLink="/home">home</button>
+<button routerLink="/content">content</button>
+<button routerLink="/about">about</button> -->
+
+<nav>
+  <ul>
+   
+   <li [routerLink]="[menu/home]"> <a>Home</a></li>
+   <li (click)="click2()"> <a>Content</a></li>
+   <li (click)="click3()"> <a>About</a></li>
+   </ul>
+ </nav>
+ 
+
+  <!-- <nav>
+    <ul>
+     
+     <li> <a href="home">Home</a></li>
+     <li> <a href="content">content</a></li>
+     <li> <a href="about">about</a></li>
+     </ul>
+   </nav>
+    -->
+    <router-outlet></router-outlet>

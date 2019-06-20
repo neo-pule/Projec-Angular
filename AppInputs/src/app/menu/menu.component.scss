@@ -1,0 +1,20 @@
+li{
+    display: inline;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+ul{
+   list-style-type: none; 
+    text-align: center;
+     margin: 0;    
+    padding: 0;
+}
+nav{
+    font-size: 2rem;
+    background-color: #F1F1F1;
+}
+ ul li :hover{
+     background-color: rgb(49, 168, 247);
+     color : #F1F1F1;
+     
+ }

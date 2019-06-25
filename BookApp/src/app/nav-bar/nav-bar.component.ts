@@ -6,9 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav-bar.component.scss']
 })
 export class NavBarComponent implements OnInit {
-
+  declare var myobj: any;
+  declare var myfun: any;
   constructor() { }
-
+   
+  
   ngOnInit() {
   }
 

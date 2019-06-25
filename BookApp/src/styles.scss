@@ -1,1 +1,129 @@
-/* You can add global styles to this file, and also import other style files */
+// /* You can add global styles to this file, and also import other style files */
+// ul {
+//     list-style-type: none;
+//     margin: 0;
+//     padding: 0;
+//     overflow: hidden;
+//     background-color: #333;
+    
+//    }
+   
+//    li {
+//     float: left;
+    
+//    }
+   
+//    li a {
+//     display: block;
+//     color: white;
+//     text-align: center;
+//     padding: 14px 16px;
+//     text-decoration: none;
+    
+//    }
+   
+//    li a:hover {
+//     background-color: #111;
+//    }
+//    html{
+//     //background-image: url("tokyo.jpg");
+//     height: 100%;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     position: relative;
+
+// }
+
+
+
+/* Style the tab *
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    display: flex;
+    width: 540px;
+    height: 45px;
+
+    
+  } */
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:black;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    padding: 3px 16px;
+    font-size: 17px;
+    color: white;
+    
+  }
+  /* 
+Style the buttons that are used to open the tab content  */
+button {
+  
+    background-color:  inherit;
+    border-color: rgb(121, 57, 5);
+    border-top-color: rgb(209, 213, 218) !important;
+    border-right-color: rgb(209, 213, 218) !important;
+    border-bottom-color: rgb(209, 213, 218) !important;
+    border-left-color: rgb(209, 213, 218);
+    border: 1px solid;
+    outline: none;
+    cursor: pointer;
+    padding: 22px 16px;
+    transition: 0.3s;
+    text-align: left;
+    font-size: 17px;
+    color: white;
+    border-radius: 6px;
+  }
+  /* Change background color of buttons on hover */
+button:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+/* Create an active/current "tab button" class */
+button.active {
+  background-color: rgba(0,0,0, 0.4);
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #29030369;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .container {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

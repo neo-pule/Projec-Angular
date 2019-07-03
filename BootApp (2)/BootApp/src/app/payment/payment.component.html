@@ -1,0 +1,136 @@
+
+<div class="banner">
+  <h1 class="banner-head">
+    Book using the App and get 20% off on your next stay .<br>
+    Visit the site, open the account and start booking Today.
+</h1>
+<!-- <img src="hero-page.jpg" alt="pic" > -->
+          </div>
+          
+      <h4 align="center">Checkout Form</h4>
+          <div class="row" align="center">
+    
+            <div class="col-50"  >
+            
+                <div class="container1" >
+                  <form action="/action_page.php">
+                  
+                    
+                      
+                      
+                        <h3 align="center">Payment</h3>
+                        <hr>
+                        <label for="fname" align="center">Accepted Cards</label>
+                        <div class="icon-container" align="center">
+                          <i class="fa fa-cc-visa" style="color:navy;"></i>
+                          <i class="fa fa-cc-amex" style="color:blue;"></i>
+                          <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                          <i class="fa fa-cc-discover" style="color:orange;"></i>
+                        </div>
+                        <div class="why" align="left">
+                        <label for="cname">Name on Card</label>
+                        <input type="text"   id="cname"  name="cardname" placeholder="John More Doe">
+                        <label for="ccnum">Credit card number</label>
+                        <input type="text" name= "number" [(ngModel)]="number"  id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                        <label for="expmonth">Exp Month</label>
+                        <select name= "expY" [(ngModel)]="expY">
+                        <option>
+                          January
+                        </option>
+                        <option>
+                          February
+                        </option>
+                        <option>
+                          March
+                        </option>
+                        <option>
+                          April
+                        </option>
+                        <option>
+                          May
+                        </option>
+                        <option>
+                          June
+                        </option>
+                        <option>
+                          July
+                        </option>
+                        <option>
+                          August
+                        </option>
+                        <option>
+                          September
+                        </option>
+                        <option>
+                          October
+                        </option>
+                        <option>
+                          November
+                        </option>
+                        <option>
+                          December
+                        </option>
+            
+                      </select>
+                        
+                          <div class="col-50">
+                            <label for="expyear">Exp Year</label><select name= "expM" [(ngModel)]="expM">
+                              <option>
+                                2019
+                              </option>
+                              <option>
+                                2020
+                              </option>
+                              <option>
+                                2021
+                              </option>
+                              <option>
+                                2022
+                              </option>
+                              <option>
+                                2023
+                              </option>
+                              <option>
+                                2024
+                              </option>
+                              <option>
+                                2025
+                              </option>
+                              <option>
+                                2026
+                              </option>
+                            </select>
+                          </div>
+                          <div class="col-50">
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="cvv" name="cvv" placeholder="352" name= "cvv" [(ngModel)]="cvv">
+                          </div>
+                        </div>
+                    <input type="submit" value="Checkout" class="btn">
+                  </form>
+                    </div>
+                
+              </div>
+              <div class="col-50"  >
+                
+                
+          <div class="container" align="left">
+            <h4>Reservation Details <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i></span></h4>
+            <hr>
+            <label for="name">Name : {{cName}}</label>
+            <label for="mail">E-mail :{{mail}}</label>
+            <label for="cardNum">Credit card number : {{number}}</label>
+            <label for="monthEx">Exp Month : {{expM}}</label>
+            <label for="YearEx">Exp Year : {{expY}}</label>
+            <label for="cvv">CVV : {{cvv}}</label>
+            <label for="check-In">Check-In : {{date}}</label>
+            
+            <label for="Nights Stay">Nights to Stay :{{nights}}</label>
+            <label for="Room">Number of Rooms :{{nRoom}}</label>
+            <label for="Adults">Adults :{{nAdult}}</label>
+            <label for="Children">Children :{{nChildren}}</label>
+            
+            <p>Total <span class="price" style="color:black"><b>R0.00</b></span></p>
+          </div>
+              </div>
+            </div>

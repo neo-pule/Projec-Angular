@@ -1,0 +1,135 @@
+ 
+
+      
+        <div class="container">
+        
+        <div class="col-md-7 col-md-push-5">
+        <div class="booking-cta">
+        <h1>When would like to Stay</h1>
+        
+        </div>
+        </div>
+        <div class="col-md-4 col-md-pull-7" >
+        <div class="booking-form" >
+        <form class="form-container">
+            
+        
+          <div class="col-sm-4">
+                
+          
+        <div class="form-group">
+        <span class="form-label">Name</span>
+        <input class="form-control" name= "cName" [(ngModel)]="cName" type="text" placeholder="Enter name">
+        </div>
+        </div>
+        
+    
+        
+        <div class="form-group">
+        <span class="form-label">Check In</span><br>
+        <input class="form-control" type="date" name= "date" [(ngModel)]="date" required="">
+        
+        </div>
+    
+        <div class="col-sm-6">
+         <div class="form-group">
+    
+        <span class="form-label">E-mail</span>
+        <input class="form-control"  name= "mail" [(ngModel)]="mail" type="text" required="">
+        </div> 
+        </div> 
+        <div class="wor">
+        
+        <div class="col-sm-6">
+        <div class="form-group">
+    
+        <span class="form-label">Nights</span>
+        <select class="form-control" name= "nights" [(ngModel)]="nights">
+    <option>1 night</option>
+    <option>2 nights</option>
+    <option>3 nights</option>
+    <option>4 nights</option>
+    <option>5 nights</option>
+    <option>6 nights</option>
+    <option>7 nights</option>
+    <option>8 nights</option>
+    <option>9 nights</option>
+    <option>10 nights</option>
+    <option>11 nights</option>
+    <option>12 nights</option>
+    <option>13 nights</option>
+    <option>14 nights</option>
+    <option>15 nights</option>
+    <option>16 nights</option>
+    <option>17 nights</option>
+    <option>18 nights</option>
+    <option>19 nights</option>
+    <option>20 nights</option>
+    <option>21 nights</option>
+    <option>22 nights</option>
+    <option>23 nights</option>
+    <option>24 nights</option>
+    <option>25 nights</option>
+    <option>26 nights</option>
+    <option>27 nights</option>
+    <option>28 nights</option>
+    <option>29 nights</option>
+    <option>30 nights</option>
+    <option>31 nights</option>
+    </select>
+    
+    </div>
+    </div>
+    
+        
+        <div class="col-sm-4">
+        <div class="form-group">
+    
+        <span class="form-label">Rooms</span>
+        <select class="form-control" name= "nRoom" [(ngModel)]="nRoom">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        </select>
+        <span class="select-arrow"></span>
+    
+        </div>
+        </div>
+    
+        <div class="col-sm-4">
+        <div class="form-group">
+        <span class="form-label">Adults</span>
+        <select class="form-control" name= "nAdult" [(ngModel)]="nAdult">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        </select>
+        <span class="select-arrow"></span>
+        </div>
+        </div>
+    
+        <div class="col-sm-4">
+        <div class="form-group">
+        <span class="form-label">Children</span>
+        <select class="form-control" name= "nChildren" [(ngModel)]="nChildren">
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+        </select>
+        <span class="select-arrow"></span>
+        </div>
+        </div>
+        
+        </div>
+       
+        <div class="form-btn" align="center">
+        <button class="submit-btn" (click)="getInfo()">Book</button>
+        </div>
+    
+        </form>
+       
+        </div>
+        </div>
+        </div>
+       
+       

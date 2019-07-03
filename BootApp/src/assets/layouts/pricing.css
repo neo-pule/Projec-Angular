@@ -229,25 +229,3 @@ p {
     }
 }
 
-
-/*      hello   */
-
-.container {
-    width: auto;
-    max-width: 1300px;
-}
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    
-}
-.section-content{
-    display: flex;
-}
-
-                body,h1 {font-family: "Montserrat", sans-serif}
-                img {margin-bottom: -7px}
-                .w3-row-padding img {margin-bottom: 12px}
-                
